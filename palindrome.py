@@ -30,8 +30,6 @@ import sys
 class Solution:
     # Write code below to complete prompt
     def isPalindrome(self, s):
-        
-        # TODO: Write code below to return a bool with the solution to the prompt
         x = x.lower().replace(' ', '')
         if x == x[::-1]:
             return True 
