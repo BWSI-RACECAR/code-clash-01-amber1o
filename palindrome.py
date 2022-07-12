@@ -33,7 +33,7 @@ class Solution:
         s = s.lower().replace(' ', '')
         if len(s) > 6:
             if s == s[::-1]:
-                if s.isalpha():
+                if s.isalnum():
                     return True
                 else: 
                     return False
