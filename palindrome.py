@@ -29,7 +29,8 @@ import sys
 
 class Solution:
     # Write code below to complete prompt
-    def isPalindrome(self):
+    def isPalindrome(self,s):
+        print("s")
         self = self.lower().replace(' ', '')
         if self == self[::-1]:
             return True 
