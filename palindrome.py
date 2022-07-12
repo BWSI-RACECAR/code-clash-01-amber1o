@@ -30,15 +30,16 @@ import sys
 class Solution:
     # Write code below to complete prompt
     def isPalindrome(self,s):
-        print(self)
-        self = self.lower().replace(' ', '')
-        if self == self[::-1]:
+        s = s.lower().replace(' ', '')
+        if s == s[::-1]:
             return True 
         else: 
             return False
             
 
 def main():
+    string1 = "racecar"
+    string2 = "This is a string"
     tc1 = Solution()
     inpyt = input()
     # Write code below to complete prompt
