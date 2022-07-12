@@ -31,9 +31,13 @@ class Solution:
     # Write code below to complete prompt
     def isPalindrome(self,s):
         s = s.lower().replace(' ', '')
-        if s == s[::-1]:
-            return True 
-        else: 
+        s = s.isalpha()
+        if len(s)>6:
+            if s == s[::-1]:
+                return True 
+            else: 
+                return False  
+        else:
             return False
             
 
