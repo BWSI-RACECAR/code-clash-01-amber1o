@@ -32,13 +32,13 @@ class Solution:
     def isPalindrome(self,s):
         s = s.lower().replace(' ', '')
         if len(s) > 6:
-            if s.isalpha():
-                if s == s[::-1]:
-                    return True 
-                 else: 
-                    return False  
-            else:
-                return False
+            if s == s[::-1]:
+                if s.isalpha():
+                    return True
+                else: 
+                    return False
+             else: 
+                return False 
         else: 
             return False
             
